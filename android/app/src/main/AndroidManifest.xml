@@ -1,6 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+     <!-- Tambahkan izin kamera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <!-- Tambahkan fitur kamera -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
     <application
-        android:label="helloworld"
+        android:label="iiefcheckin"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
